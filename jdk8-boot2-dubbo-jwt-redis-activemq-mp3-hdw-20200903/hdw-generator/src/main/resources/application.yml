@@ -12,9 +12,9 @@ spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
         driverClassName: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://127.0.0.1:3306/hdw_dubbo?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+        url: jdbc:mysql://example.com:3306/hdw_dubbo?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
         username: root
-        password: 123456
+        password: 不想被人知道的密码
     jackson:
         time-zone: GMT+8
         date-format: yyyy-MM-dd HH:mm:ss
