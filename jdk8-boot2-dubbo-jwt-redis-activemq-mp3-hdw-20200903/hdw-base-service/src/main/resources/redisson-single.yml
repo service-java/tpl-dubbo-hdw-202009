@@ -7,7 +7,7 @@ singleServerConfig:
   retryInterval: 1500
   #reconnectionTimeout: 3000
   #failedAttempts: 3
-  password:
+  password: 不想被人知道的密码
   subscriptionsPerConnection: 5
   clientName: sb-mybatis
   address: "redis://example.com:6379"
