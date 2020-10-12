@@ -51,7 +51,7 @@ spring:
       shutdown-timeout: 100ms
 
   activemq:
-    broker-url: tcp://localhost:61616
+    broker-url: tcp://example.com:61616
     user: admin
     password: admin
     in-memory: false
